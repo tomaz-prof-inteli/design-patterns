@@ -39,7 +39,7 @@ public class _Main {
 					print("Não há estado anterior!");
 				}
 				else {
-					editor.restaurar(historico.pop());
+					editor.restaurar(anterior);
 				}
 				break;
 			case "0":
